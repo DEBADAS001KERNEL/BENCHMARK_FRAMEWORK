@@ -1,0 +1,4 @@
+In this mini project,
+I have demonstrated a simple framework to load and evaluate Gemini and other models on the MMLU dataset (10 samples), and check their accuracy.
+
+For memory efficiency and other related tasks, I have also developed a separate CLI-based tool called LMLyzer — please check it out.
