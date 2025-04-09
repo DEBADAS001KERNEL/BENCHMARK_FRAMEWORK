@@ -82,7 +82,7 @@ if __name__ == "__main__":
     for name, model_id in models_to_test.items():
         print(f"\n🔍 Evaluating {name}...")
         acc = evaluatemmlu(model_id)
-        print(f"✅ {name} Accuracy: {acc:.2%}")
+        print(f" {name} Accuracy: {acc:.2%}")
         results[name] = acc
 
     plot_results(results)
